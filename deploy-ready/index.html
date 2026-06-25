@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050505" />
+    <meta
+      name="description"
+      content="Personal site of Joshua Agbali, an IB student interested in engineering, chemistry research, coding, athletics, and visual work."
+    />
+    <title>Joshua Agbali</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="./index.html">Joshua Agbali</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span></span>
+          <span></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <div class="nav-menu" id="nav-menu">
+          <a class="active" href="./index.html">Home</a>
+          <a href="./experience.html">Experiences</a>
+          <a href="./projects.html">Projects</a>
+          <a href="./gear.html">Gear</a>
+          <a href="./gallery.html">Gallery</a>
+          <a href="./assets/Joshua_Agbali_Resume_Spaced.pdf">CV</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-section fade-up">
+        <p class="eyebrow">student / builder / runner</p>
+        <h1 class="hero-title">
+          <span id="typed-headline" aria-live="polite"></span><span class="type-cursor" aria-hidden="true"></span>
+        </h1>
+        <p class="intro">
+          I am Joshua Agbali, an IB student in Tallahassee building across science, software, athletics, and design.
+        </p>
+      </section>
+
+      <section class="camera-roll page-section fade-up" aria-labelledby="camera-roll-title">
+        <div class="section-heading">
+          <p class="eyebrow">camera roll</p>
+          <h2 id="camera-roll-title">recent frames</h2>
+        </div>
+        <div class="photo-collage">
+          <figure class="collage-card rotate-left">
+            <img src="./assets/gallery/featured-photo-1.jpg" alt="Joshua at sunset wearing a white shirt" />
+            <figcaption><span>portrait</span><small>Tallahassee</small></figcaption>
+          </figure>
+          <figure class="collage-card rotate-right">
+            <img src="./assets/gallery/gallery-1.jpg" alt="Joshua holding a camera outdoors" />
+            <figcaption><span>camera day</span><small>street light</small></figcaption>
+          </figure>
+          <figure class="collage-card rotate-soft" data-motion="kick">
+            <img src="./assets/gallery/featured-photo-3.jpg" alt="Joshua running on a blue track" />
+            <figcaption><span>track season</span><small>meet day</small></figcaption>
+          </figure>
+          <figure class="collage-card rotate-back">
+            <img src="./assets/gallery/featured-photo-2.jpg" alt="Joshua in a navy suit near brick walls" />
+            <figcaption><span>formal</span><small>evening</small></figcaption>
+          </figure>
+          <figure class="collage-card rotate-left">
+            <img src="./assets/gallery/gallery-2.jpg" alt="Close portrait of Joshua at dusk" />
+            <figcaption><span>dusk</span><small>low light</small></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="home-grid page-section fade-up" aria-label="Current interests">
+        <article class="music-card">
+          <div class="music-copy">
+            <p class="eyebrow">soundtrack lately</p>
+            <h2>Currently on repeat.</h2>
+            <p>A quieter window into what I play while working, running, and resetting.</p>
+            <a href="https://open.spotify.com/playlist/3NEE52s3KKmiOCO3NI4tWH?si=E3w0mH-fQ7WGhq4E4BClNg" target="_blank" rel="noreferrer">
+              open in Spotify ↗
+            </a>
+          </div>
+          <div class="spotify-hero">
+            <iframe
+              title="Joshua's Spotify playlist"
+              src="https://open.spotify.com/embed/playlist/3NEE52s3KKmiOCO3NI4tWH?utm_source=generator&theme=0"
+              width="100%"
+              height="430"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </article>
+
+        <article class="currently-card">
+          <p class="eyebrow">currently</p>
+          <h2>Learning how ideas become systems.</h2>
+          <p>Engineering, chemistry, code, design, training, and patient progress.</p>
+          <svg class="sparkline" viewBox="0 0 160 44" aria-hidden="true">
+            <path d="M2 34 C22 30 30 10 48 18 S78 42 98 22 132 8 158 14" />
+          </svg>
+          <div class="pill-row">
+            <span>IB</span>
+            <span>Research</span>
+            <span>Running</span>
+            <span>Design</span>
+          </div>
+          <small>Not financial advice. Just a small note on curiosity and long-term thinking.</small>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-icons"><a href="https://github.com/Agbali22" target="_blank" rel="noreferrer">GH</a><a href="https://www.linkedin.com/in/joshuagbali/?skipRedirect=true" target="_blank" rel="noreferrer">in</a><a href="https://www.instagram.com/joshuaagbali/" target="_blank" rel="noreferrer">IG</a><a href="https://open.spotify.com/playlist/1kzbMvyjKZFnoKxYCFd5cZ?si=7qN5r_1ZSRyqyjTr2S85GA" target="_blank" rel="noreferrer">SP1</a><a href="https://open.spotify.com/playlist/3NEE52s3KKmiOCO3NI4tWH?si=2djs3mHpR3-UGmCrcGH6nA" target="_blank" rel="noreferrer">SP2</a><a href="mailto:Joshua.O.agbali@gmail.com">Mail</a></div>
+      <p>Joshua.O.agbali@gmail.com / Amoncape@outlook.com</p>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
