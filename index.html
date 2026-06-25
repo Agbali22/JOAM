@@ -1,0 +1,140 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#050505" />
+    <meta
+      name="description"
+      content="Personal site of Joshua Agbali, an IB student interested in engineering, chemistry research, coding, athletics, and visual work."
+    />
+    <title>Joshua Agbali</title>
+    <link rel="icon" type="image/png" href="./assets/favicon.png" />
+    <link rel="apple-touch-icon" href="./assets/apple-touch-icon.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <nav class="nav" aria-label="Primary navigation">
+        <a class="brand" href="./index.html">Joshua Agbali</a>
+        <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="nav-menu">
+          <span></span>
+          <span></span>
+          <span class="sr-only">Toggle navigation</span>
+        </button>
+        <div class="nav-menu" id="nav-menu">
+          <a class="active" href="./index.html">Home</a>
+          <a href="./experience.html">Experiences</a>
+          <a href="./projects.html">Projects</a>
+          <a href="./gear.html">Gear</a>
+          <a href="./gallery.html">Gallery</a>
+          <a href="./assets/Joshua_Agbali_Resume_Spaced.pdf">CV</a>
+        </div>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero page-section fade-up">
+        <p class="eyebrow">student / builder / runner</p>
+        <h1 class="hero-title">
+          <span id="typed-headline" aria-live="polite"></span><span class="type-cursor" aria-hidden="true"></span>
+        </h1>
+        <p class="intro">
+          I am Joshua Agbali, an IB student in Tallahassee building across science, software, athletics, and design.
+        </p>
+      </section>
+
+      <section class="camera-roll page-section fade-up" aria-labelledby="camera-roll-title">
+        <div class="section-heading">
+          <p class="eyebrow">camera roll</p>
+          <h2 id="camera-roll-title">recent frames</h2>
+        </div>
+        <div class="photo-collage">
+          <figure class="collage-card rotate-left">
+            <img src="./assets/gallery/featured-photo-1.jpg" alt="Joshua at sunset wearing a white shirt" />
+            <figcaption><span>portrait</span><small>Tallahassee</small></figcaption>
+          </figure>
+          <figure class="collage-card rotate-right">
+            <img src="./assets/gallery/gallery-1.jpg" alt="Joshua holding a camera outdoors" />
+            <figcaption><span>camera day</span><small>street light</small></figcaption>
+          </figure>
+          <figure class="collage-card rotate-soft" data-motion="kick">
+            <img src="./assets/gallery/featured-photo-3.jpg" alt="Joshua running on a blue track" />
+            <figcaption><span>track season</span><small>meet day</small></figcaption>
+          </figure>
+          <figure class="collage-card rotate-back">
+            <img src="./assets/gallery/featured-photo-2.jpg" alt="Joshua in a navy suit near brick walls" />
+            <figcaption><span>formal</span><small>evening</small></figcaption>
+          </figure>
+          <figure class="collage-card rotate-left">
+            <img src="./assets/gallery/gallery-2.jpg" alt="Close portrait of Joshua at dusk" />
+            <figcaption><span>dusk</span><small>low light</small></figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="home-grid page-section fade-up" aria-label="Current interests">
+        <article class="music-card">
+          <div class="music-copy">
+            <p class="eyebrow">soundtrack lately</p>
+            <h2>Currently on repeat.</h2>
+            <p>A quieter window into what I play while working, running, and resetting.</p>
+            <a href="https://open.spotify.com/playlist/3NEE52s3KKmiOCO3NI4tWH?si=E3w0mH-fQ7WGhq4E4BClNg" target="_blank" rel="noreferrer">
+              open in Spotify ↗
+            </a>
+          </div>
+          <div class="spotify-hero">
+            <iframe
+              title="Joshua's Spotify playlist"
+              src="https://open.spotify.com/embed/playlist/3NEE52s3KKmiOCO3NI4tWH?utm_source=generator&theme=0"
+              width="100%"
+              height="430"
+              allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+              loading="lazy"
+            ></iframe>
+          </div>
+        </article>
+
+        <article class="currently-card">
+          <p class="eyebrow">currently</p>
+          <h2>Learning how ideas become systems.</h2>
+          <p>Engineering, chemistry, code, design, training, and patient progress.</p>
+          <svg class="sparkline" viewBox="0 0 160 44" aria-hidden="true">
+            <path d="M2 34 C22 30 30 10 48 18 S78 42 98 22 132 8 158 14" />
+          </svg>
+          <div class="pill-row">
+            <span>IB</span>
+            <span>Research</span>
+            <span>Running</span>
+            <span>Design</span>
+          </div>
+          <small>Not financial advice. Just a small note on curiosity and long-term thinking.</small>
+        </article>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="footer-inner">
+        <span class="footer-copy">© 2026 Joshua Agbali. All rights reserved.</span>
+        <nav class="social" aria-label="Social links">
+          <a href="https://github.com/Agbali22" target="_blank" rel="noopener" aria-label="GitHub"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 .7a11.3 11.3 0 0 0-3.6 22c.6.1.8-.2.8-.6v-2c-3.3.7-4-1.4-4-1.4-.5-1.3-1.2-1.6-1.2-1.6-1-.7.1-.7.1-.7 1.1.1 1.7 1.2 1.7 1.2 1 .1.6 2.1 3.4 1.5.1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-5.8 0-1.3.5-2.3 1.2-3.2-.1-.3-.5-1.6.1-3.2 0 0 .9-.3 3.3 1.2a11.4 11.4 0 0 1 6 0c2.3-1.5 3.3-1.2 3.3-1.2.6 1.6.2 2.9.1 3.2.8.9 1.2 1.9 1.2 3.2 0 4.5-2.8 5.5-5.5 5.8.5.4.8 1.1.8 2.2v3.3c0 .4.2.7.8.6A11.3 11.3 0 0 0 12 .7Z"/></svg></a>
+          <a href="https://www.linkedin.com/in/joshuagbali/?skipRedirect=true" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5.01 2.5 2.5 0 0 1 0-5ZM3 9.4h4v11.1H3V9.4Zm6.2 0H13v1.5h.1c.5-.9 1.8-1.8 3.7-1.8 4 0 4.7 2.6 4.7 6v5.4h-4v-4.8c0-1.1 0-2.6-1.6-2.6s-1.9 1.2-1.9 2.5v4.9h-4V9.4Z"/></svg></a>
+          <a href="https://www.instagram.com/joshuaagbali/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M7.5 2h9A5.5 5.5 0 0 1 22 7.5v9a5.5 5.5 0 0 1-5.5 5.5h-9A5.5 5.5 0 0 1 2 16.5v-9A5.5 5.5 0 0 1 7.5 2Zm0 2A3.5 3.5 0 0 0 4 7.5v9A3.5 3.5 0 0 0 7.5 20h9a3.5 3.5 0 0 0 3.5-3.5v-9A3.5 3.5 0 0 0 16.5 4h-9Zm4.5 3.7a4.3 4.3 0 1 1 0 8.6 4.3 4.3 0 0 1 0-8.6Zm0 2a2.3 2.3 0 1 0 0 4.6 2.3 2.3 0 0 0 0-4.6Zm5.2-2.8a1 1 0 1 1 0 2.1 1 1 0 0 1 0-2.1Z"/></svg></a>
+          <a href="https://open.spotify.com/playlist/1kzbMvyjKZFnoKxYCFd5cZ?si=7qN5r_1ZSRyqyjTr2S85GA" target="_blank" rel="noopener" aria-label="Spotify playlist one"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.8A10.2 10.2 0 1 0 12 22.2 10.2 10.2 0 0 0 12 1.8Zm4.7 14.7c-.2.3-.6.4-.9.2-2.5-1.5-5.6-1.8-9.2-1-.4.1-.7-.1-.8-.5-.1-.4.1-.7.5-.8 4-.9 7.4-.5 10.2 1.2.3.2.4.6.2.9Zm1.3-2.9c-.2.4-.7.5-1.1.3-2.8-1.7-7.1-2.2-10.5-1.2-.4.1-.9-.1-1-.6-.1-.4.1-.9.6-1 3.9-1.2 8.7-.6 11.8 1.4.4.2.5.7.2 1.1Zm.1-3.1C14.7 8.5 9 8.3 5.8 9.3c-.5.2-1-.1-1.2-.6-.2-.5.1-1 .6-1.2 3.7-1.1 9.9-.9 13.8 1.4.5.3.6.9.3 1.3-.2.5-.8.6-1.2.3Z"/></svg></a>
+          <a href="https://open.spotify.com/playlist/3NEE52s3KKmiOCO3NI4tWH?si=2djs3mHpR3-UGmCrcGH6nA" target="_blank" rel="noopener" aria-label="Spotify playlist two"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 1.8A10.2 10.2 0 1 0 12 22.2 10.2 10.2 0 0 0 12 1.8Zm4.7 14.7c-.2.3-.6.4-.9.2-2.5-1.5-5.6-1.8-9.2-1-.4.1-.7-.1-.8-.5-.1-.4.1-.7.5-.8 4-.9 7.4-.5 10.2 1.2.3.2.4.6.2.9Zm1.3-2.9c-.2.4-.7.5-1.1.3-2.8-1.7-7.1-2.2-10.5-1.2-.4.1-.9-.1-1-.6-.1-.4.1-.9.6-1 3.9-1.2 8.7-.6 11.8 1.4.4.2.5.7.2 1.1Zm.1-3.1C14.7 8.5 9 8.3 5.8 9.3c-.5.2-1-.1-1.2-.6-.2-.5.1-1 .6-1.2 3.7-1.1 9.9-.9 13.8 1.4.5.3.6.9.3 1.3-.2.5-.8.6-1.2.3Z"/></svg></a>
+          <a href="mailto:Joshua.O.agbali@gmail.com" aria-label="Email"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M3.8 5h16.4c1 0 1.8.8 1.8 1.8v10.4c0 1-.8 1.8-1.8 1.8H3.8c-1 0-1.8-.8-1.8-1.8V6.8C2 5.8 2.8 5 3.8 5Zm8.2 7.4 7.4-5.5H4.6l7.4 5.5Zm0 2.3L4 8.8v8.3h16V8.8l-8 5.9Z"/></svg></a>
+        </nav>
+      </div>
+    </footer>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
+
+
